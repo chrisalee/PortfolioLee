@@ -1,5 +1,5 @@
 import React from "react";
-import SelfPorait from "../images/SelfPortrait.PNG";
+import SelfPorait from "https://chrisalee.github.io/PortfolioLee/images/SelfPortrait.PNG";
 import Typed from 'react-typed';
 
 const Introduction = () => {

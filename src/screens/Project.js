@@ -20,7 +20,7 @@ const Project = (props) => {
         </h1>
         <p className="section__subtitle section__subtitle--intro">{project.subtitle}</p>
         <img
-          src={`https://chrisalee.github.io/PortfolioLee${project.images[0]}`}
+          src={`https://chrisalee.github.io/PortfolioLee/${project.images[0]}`}
           alt={project.name}
           className="intro__img portfolio-image-individual"
           loading='lazy'
@@ -30,7 +30,7 @@ const Project = (props) => {
       <div className="portfolio-item-individual">
         <p>{project.subtitle}</p>
         <img
-          src={`https://chrisalee.github.io/PortfolioLee${project.images[1]}`}
+          src={`https://chrisalee.github.io/PortfolioLee${project.images[1]}?raw=true`}
           alt={project.name}
           className="portfolio-image-individual__main"
           loading='lazy'

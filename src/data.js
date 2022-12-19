@@ -3,7 +3,7 @@ const data = {
         {
             _id: '1',
             name: 'Amazon Clone',
-            images: ['/images/AmazonClone.png', '/images/AmazonClone2.png', '/images/AmazonClone3.png', '/images/AmazonClone4.png'],
+            images: ['https://chrisalee.github.io/PortfolioLee/images/AmazonClone.png', '/images/AmazonClone2.png', '/images/AmazonClone3.png', '/images/AmazonClone4.png'],
             subtitle: 'ReactJS, Stripe, Firebase',
             description: "ReactJS clone of the homepage of Amazon's web app. Deployed with Firebase, and used the Stripe API.",
             description2: "Created a database for the items being sold within the site, and worked with Stripe to allow credit card payments.  Orders are stored in Firebase, and there is a screen that can view all past orders.",

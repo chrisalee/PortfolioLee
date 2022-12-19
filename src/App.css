@@ -322,7 +322,7 @@ h3 {
       max-content;
   }
   .intro__img {
-    background-image: url("https://chrisalee.github.io/PortfolioLee/SelfPortrait.PNG");
+    background-image: url(https://chrisalee.github.io/PortfolioLee/SelfPortrait.PNG);
     grid-area: img;
     min-width: 300px;
     position: relative;

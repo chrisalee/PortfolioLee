@@ -8,12 +8,12 @@ import ScrollTop from "./components/ScrollTop";
 import Project from "./screens/Project";
 
 function App() {
-  
+
   return (
     <BrowserRouter>
       <div className="app">
         <Nav />
-        <Routes>
+        <Routes basename={`${process.env.REACT_APP_PUBLIC_URL}/`}>
           <Route path="/portfolio/:id" element={<Project />} />
           <Route path="/" element={<Home />} exact />
         </Routes>

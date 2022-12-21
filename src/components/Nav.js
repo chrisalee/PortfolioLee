@@ -1,7 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeaderLogo from "../assets/logo.png";
-import ChristopherLeeResume from "../assets/ChristopherLeeResume.pdf";
 
 const Nav = () => {
   const handleClickOpen = (event) => {
@@ -15,12 +13,12 @@ const Nav = () => {
     <div className="header">
       <div className="logo">
         <Link to='/'>
-        <img src={HeaderLogo} alt="" className="logo__image" loading='lazy' />
+        <img src={"https://chrisalee.github.io/PortfolioLee/assets/logo.png"} alt="" className="logo__image" loading='lazy' />
         </Link>
       </div>
       <div className="resume">
         <a
-          href={ChristopherLeeResume}
+          href={"https://chrisalee.github.io/PortfolioLee/assets/ChristopherLeeResume.pdf"}
           target="_blank"
           rel="noreferrer"
           download="ChristopherLeeResume"

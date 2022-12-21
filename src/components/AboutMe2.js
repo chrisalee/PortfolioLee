@@ -1,5 +1,4 @@
 import React from "react";
-import ProfilePic2 from "../assets/ProfilePic2.jpg";
 import Typed from "react-typed";
 
 const AboutMe2 = () => {
@@ -29,7 +28,7 @@ const AboutMe2 = () => {
             MERN as well utilizing different frameworks and technologies.
           </p>
         </div>
-        <img src={ProfilePic2} alt="vert-pic" className="myEducation__image" loading='lazy' />
+        <img src={"https://chrisalee.github.io/PortfolioLee/assets/ProfilePic2.jpg"} alt="vert-pic" className="myEducation__image" loading='lazy' />
       </section>
     </div>
   );

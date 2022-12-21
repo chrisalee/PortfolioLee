@@ -10,10 +10,10 @@ import Project from "./screens/Project";
 function App() {
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={'/'}>
       <div className="app">
         <Nav />
-        <Routes basename={`${process.env.REACT_APP_PUBLIC_URL}/`}>
+        <Routes >
           <Route path="/portfolio/:id" element={<Project />} />
           <Route path="/" element={<Home />} exact />
         </Routes>

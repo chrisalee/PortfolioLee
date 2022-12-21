@@ -12,7 +12,7 @@ const Nav = () => {
   return (
     <div className="header">
       <div className="logo">
-        <Link to='/'>
+        <Link to='/PortfolioLee'>
         <img src={"https://chrisalee.github.io/PortfolioLee/assets/logo.png"} alt="" className="logo__image" loading='lazy' />
         </Link>
       </div>
@@ -38,7 +38,7 @@ const Nav = () => {
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item" onClick={handleClickClose}>
-              <Link to="/" className="nav__link">
+              <Link to="/PortfolioLee" className="nav__link">
                 Home
               </Link>
             </li>

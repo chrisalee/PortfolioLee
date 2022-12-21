@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic2 from "../images/ProfilePic2.jpg";
+import ProfilePic2 from "../assets/ProfilePic2.jpg";
 import Typed from "react-typed";
 
 const AboutMe2 = () => {

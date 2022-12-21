@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import HeaderLogo from "../images/logo.png";
-import ChristopherLeeResume from "../images/ChristopherLeeResume.pdf";
+import HeaderLogo from "../assets/logo.png";
+import ChristopherLeeResume from "../assets/ChristopherLeeResume.pdf";
 
 const Nav = () => {
   const handleClickOpen = (event) => {

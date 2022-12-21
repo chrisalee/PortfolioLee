@@ -1,5 +1,6 @@
 import React from "react";
 import Typed from 'react-typed';
+// import SelfPortrait from '../../assets/SelfPortrait.PNG';
 
 const Introduction = () => {
   return (
@@ -17,7 +18,7 @@ const Introduction = () => {
             // loop
           />
         </p>
-        <img src={"https://chrisalee.github.io/PortfolioLee/images/SelfPortrait.PNG?raw=true"} alt="anime-me" className="intro__img" loading='lazy' />
+        <img src={"https://chrisalee.github.io/PortfolioLee/assets/SelfPortrait.PNG"} alt="anime-me" className="intro__img" loading='lazy' />
       </section>
     </div>
   );

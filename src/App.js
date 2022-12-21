@@ -15,7 +15,7 @@ function App() {
         <Nav />
         <Routes >
           <Route path="/portfolio/:id" element={<Project />} />
-          <Route path="/PortfolioLee" element={<Home />} />
+          <Route path="/PortfolioLee/" element={<Home />} />
           <Route path="/" element={<Home />} exact />
         </Routes>
         <ScrollTop />

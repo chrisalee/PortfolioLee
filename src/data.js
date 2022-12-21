@@ -107,8 +107,8 @@ const data = {
             subtitle: 'ReactJS',
             description: "A template for a blog site using ReactJS",
             description2: "Focus on creating and using React components.  React Router is used to travers between the different pages.",
-            url: "https://github.com/chrisalee/reactBlogSite",
-            category: "View code on GitHub"
+            url: "https://chrisalee.github.io/reactBlogSite/",
+            category: "View website"
         },
         {
             _id: '12',

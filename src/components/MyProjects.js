@@ -17,7 +17,7 @@ const MyProjects = () => {
               <img
                 src={`https://chrisalee.github.io/PortfolioLee${project.images[0]}`}
                 alt={project.name}
-                className="portfolio__imag"
+                className="portfolio__image"
                 loading='lazy'
               />
             </Link>

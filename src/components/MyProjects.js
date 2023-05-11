@@ -16,7 +16,7 @@ const MyProjects = () => {
             <div className="project__img" key={project._id}>
               <Link
                 key={project._id}
-                to={`/portfolio/${project._id}`}
+                to={`/PortfolioLee/portfolio/${project._id}`}
                 className="portfolio__item"
               >
                 <img

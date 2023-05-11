@@ -21,7 +21,7 @@ const App = () => {
       <div className="app">
         <Nav />
         <Routes >
-          <Route path="/portfolio/:id" element={<Suspense fallback={<div>loading...</div>}><Project /></Suspense>} />
+          <Route path="/PortfolioLee/portfolio/:id" element={<Suspense fallback={<div>loading...</div>}><Project /></Suspense>} />
           <Route path="/PortfolioLee/" element={<Suspense fallback={<div>loading...</div>}><Home /></Suspense>} />
           <Route path="/PortfolioLee/" element={<Home />} exact />
         </Routes>

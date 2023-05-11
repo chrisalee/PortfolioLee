@@ -15,7 +15,7 @@ const MyProjects = () => {
           {data.projects.map((project) => (
             <div className="project__img" key={project._id}>
               <Link
-                // key={project._id}
+                key={project._id}
                 to={`/portfolio/${project._id}`}
                 className="portfolio__item"
               >

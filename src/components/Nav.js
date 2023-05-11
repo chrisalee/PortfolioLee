@@ -13,7 +13,7 @@ const Nav = () => {
     <div className="header">
       <div className="logo">
         <Link to='/PortfolioLee/'>
-        <img src={"https://chrisalee.github.io/PortfolioLee/assets/logo.png"} alt="" className="logo__image" loading='lazy' />
+          <img src={"https://chrisalee.github.io/PortfolioLee/assets/logo.png"} alt="" className="logo__image" loading='lazy' />
         </Link>
       </div>
       <div className="resume">
@@ -43,27 +43,27 @@ const Nav = () => {
               </Link>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/#aboutme" className="nav__link">
+              <a href="/PortfolioLee/#aboutme" className="nav__link">
                 About Me
               </a>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/#technologies" className="nav__link">
+              <a href="/PortfolioLee/#technologies" className="nav__link">
                 Technologies
               </a>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/#myEducation" className="nav__link">
+              <a href="/PortfolioLee/#myEducation" className="nav__link">
                 My Education
               </a>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/#myWork" className="nav__link">
+              <a href="/PortfolioLee/#myWork" className="nav__link">
                 Portfolio
               </a>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/#contact" className="nav__link">
+              <a href="/PortfolioLee/#contact" className="nav__link">
                 Contact
               </a>
             </li>

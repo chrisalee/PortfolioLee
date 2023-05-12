@@ -27,7 +27,7 @@ const Contact = () => {
 
   return (
     <div>
-      <section className="contact" id="contact">
+      <section className="contact" id="contact" name="contact">
         <div className="contact__container">
           <h2 className="contact__title">Contact</h2>
           <form className="contact-form contact__form" onSubmit={sendEmail}>

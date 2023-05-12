@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link'
 
 const Nav = () => {
   const handleClickOpen = (event) => {
@@ -38,34 +39,34 @@ const Nav = () => {
         <nav className="nav">
           <ul className="nav__list">
             <li className="nav__item" onClick={handleClickClose}>
-              <Link to="/PortfolioLee/" className="nav__link">
+              <Link to="/PortfolioLee" className="nav__link">
                 Home
               </Link>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/PortfolioLee/#aboutme" className="nav__link">
+              <HashLink to="/PortfolioLee#aboutme" className="nav__link">
                 About Me
-              </a>
+              </HashLink>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/PortfolioLee/#technologies" className="nav__link">
+              <HashLink to="/PortfolioLee#technologies" className="nav__link">
                 Technologies
-              </a>
+              </HashLink>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/PortfolioLee/#myEducation" className="nav__link">
+              <HashLink to="/PortfolioLee#myEducation" className="nav__link">
                 My Education
-              </a>
+              </HashLink>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/PortfolioLee/#myWork" className="nav__link">
+              <HashLink to="/PortfolioLee#myWork" className="nav__link">
                 Portfolio
-              </a>
+              </HashLink>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <a href="/PortfolioLee/#contact" className="nav__link">
+              <HashLink to="/PortfolioLee#contact" name="contact" className="nav__link">
                 Contact
-              </a>
+              </HashLink>
             </li>
           </ul>
         </nav>

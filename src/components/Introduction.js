@@ -5,7 +5,7 @@ import Typed from 'react-typed';
 const Introduction = () => {
   return (
     <div>
-      <section className="intro" id="intro">
+      <section className="intro" id="intro" name="intro">
         <h1 className="section__title section__title--intro">
           Hi, I am <strong>Christopher Lee</strong>
         </h1>

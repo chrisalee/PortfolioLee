@@ -21,7 +21,7 @@ const App = () => {
         <Routes>
           <Route path="/PortfolioLee/portfolio/:id" element={<Project />} />
           <Route path="/PortfolioLee" element={<Home />} />
-          <Route path="/PortfolioLee" element={<Home />} exact />
+          <Route path="/" element={<Home />} exact />
         </Routes>
         <ScrollTop />
         <Footer />

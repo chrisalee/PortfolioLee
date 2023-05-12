@@ -13,7 +13,7 @@ const Technologies = () => {
 
     return (
         <div>
-            <section className="technolgies" id='technologies'>
+            <section className="technolgies" id='technologies' name="technologies">
                 <h2 className="section__title section__title--technolgies">Technologies</h2>
                 <img loading='lazy' className="section__imgage section__image--technolgies" src={ 'https://chrisalee.github.io/PortfolioLee/assets/HTML.png' } alt="HTML" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />
                 <img loading='lazy' className="section__imgage section__image--technolgies" src={ 'https://chrisalee.github.io/PortfolioLee/assets/CSS.png' } alt="CSS" onMouseEnter={ mouseEnter } onMouseLeave={ mouseLeave } />

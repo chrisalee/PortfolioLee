@@ -5,7 +5,7 @@ import data from "../data";
 const MyProjects = () => {
   return (
     <div>
-      <section className="myWork" id="myWork">
+      <section className="myWork" id="myWork" name="myWork">
         <h2 className="section__title section__title--myWork">My Work</h2>
         <p className="section__subtitle section__subtitle--myWork">
           A selection of my range of work

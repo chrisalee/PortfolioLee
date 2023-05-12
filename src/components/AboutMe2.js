@@ -4,7 +4,7 @@ import Typed from "react-typed";
 const AboutMe2 = () => {
   return (
     <div>
-      <section className="myEducation" id="myEducation">
+      <section className="myEducation" id="myEducation" name="myEducation">
         <h2 className="section__title section__title--about">My Education</h2>
         <p className="section__subtitle section__subtitle--about">
           <Typed

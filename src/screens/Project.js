@@ -19,7 +19,7 @@ const Project = (props) => {
         <h1 className="section__title section__title--intro intro--header">
           { project.name }
         </h1>
-        <p className="section__subtitle section__subtitle--intro intro--subheader">{project.subtitle}</p>
+        <p className="section__subtitle section__subtitle--intro intro--subheader accent-line"></p>
         <img
           src={`https://chrisalee.github.io/PortfolioLee/${project.images[0]}`}
           alt={project.name}

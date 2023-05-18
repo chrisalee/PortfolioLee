@@ -1,6 +1,5 @@
 import React from "react";
 import emailjs from "emailjs-com";
-// import Particles from "react-particles-js";
 
 const Contact = () => {
   const sendEmail = (event) => {

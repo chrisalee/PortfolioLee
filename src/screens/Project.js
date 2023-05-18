@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import data from "../data";
+import ImageSlider from "../components/ImageSlider";
 
 const Project = (props) => {
   const { id } = useParams();
@@ -14,11 +15,11 @@ const Project = (props) => {
   return (
     <div className='individual__project--container'>
       {/* <!-- Intoduction --> */}
-      <section className="intro">
-        <h1 className="section__title section__title--intro">
+      <section className="intro intro-project">
+        <h1 className="section__title section__title--intro intro--header">
           { project.name }
         </h1>
-        <p className="section__subtitle section__subtitle--intro">{project.subtitle}</p>
+        <p className="section__subtitle section__subtitle--intro intro--subheader">{project.subtitle}</p>
         <img
           src={`https://chrisalee.github.io/PortfolioLee/${project.images[0]}`}
           alt={project.name}
@@ -28,13 +29,13 @@ const Project = (props) => {
       </section>
 
       <div className="portfolio-item-individual">
-        <p>{project.subtitle}</p>
-        <img
+        <ImageSlider />
+        {/* <img
           src={`https://chrisalee.github.io/PortfolioLee${project.images[1]}?raw=true`}
           alt={project.name}
           className="portfolio-image-individual__main"
           loading='lazy'
-        />
+        /> */}
         <a href={project.url} target="_blank" rel="noreferrer">
           {project.category}
         </a>

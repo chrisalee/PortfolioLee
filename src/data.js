@@ -65,7 +65,7 @@ const data = {
             name: 'Expense Tracker',
             images: ['/images/ExpenseTracker.png', '/images/ExpenseTracker2.png'],
             subtitle: 'ReactJS',
-            description: "A simple way to tracker your expenses.",
+            description: "A simple way to track your expenses.",
             description2: "Used Reducer.js and GlobalState to create context.  Used the reducer to specify application state changes in response to certain actions to the store, in context.",
             url: "https://github.com/chrisalee/reactExpenseTracker",
             category: "View code on GitHub"
@@ -133,7 +133,7 @@ const data = {
         {
             _id: '14',
             name: 'Game Landing Page',
-            images: ['/images/GameLandingPage.png', '/images/GameLandingPage3.png'],
+            images: ['/images/GameLandingPage.png', '/images/GameLandingPage3.png', '/images/GameLandingPage2.png', '/images/GameLandingPage4.png', '/images/GameLandingPage5.png'],
             subtitle: 'ReactJS, Vite, Swiper.js, SASS, yarn hover-effect ',
             description: "A Game Landing Page built using React.js, Vite.js and SASS.",
             description2: "This game landing page uses swiper.js to allow mouse scrolling to another feature of the homepage.  Mapping through all the characters and using swiper to grab hold of the screen and rotate through more available characters.  To another section previewing videos of each character to another section with gameplay trailers.",
@@ -143,7 +143,7 @@ const data = {
         {
             _id: '15',
             name: 'Exercise Tracker',
-            images: ['/images/ExerciseClass.png', '/images/ExerciseClass-2.png'],
+            images: ['/images/ExerciseClass.png', '/images/ExerciseClass-2.png', '/images/ExerciseClass-3.png'],
             subtitle: 'ReactJS, Express, Node.js, MongoDB',
             description: "An exercise tracker that allows users to add usernames to a database, and create exercises",
             description2: "This exercise tracker was built with react class components.",
@@ -203,7 +203,7 @@ const data = {
         {
             _id: '21',
             name: 'Real Estate Website',
-            images: ['/images/RealEstate-1.png', '/images/RealEstate-2.png'],
+            images: ['/images/RealEstate-1.png', '/images/RealEstate-2.png', '/images/RealEstate-3.png', '/images/RealEstate-4.png', '/images/RealEstate-5.png', '/images/RealEstate-6.png', '/images/RealEstate-7.png', '/images/RealEstate-8.png', '/images/RealEstate-9.png', '/images/RealEstate-10.png',],
             subtitle: 'A vanilla JS project deployed to github pages',
             description: "A frontend Real Estate website that is responsive with mutliple pages created using HTML, CSS, and JavaScript.",
             description2: "This responsive website includes pages to all listings page, a single listing page, login and registration pages, an about page, contact page, a search page, and a homepage.",
@@ -220,6 +220,26 @@ const data = {
         //     url: "",
         //     category: "View code on GitHub"
         // },
+        {
+            _id: '23',
+            name: 'Cocktail DB',
+            images: ['/images/CocktailDB-1.png', '/images/CocktailDB-2.png'],
+            subtitle: 'A React.JS project deployed to github pages',
+            description: "A website made with React.JS that uses www.thecocktaildb.com api.",
+            description2: "This responsive website includes pages to a homepage that has a search form to look for specific cocktails, and a page of a single cocktail that gives more information about the cocktail.  This app uses context to pass states of information.",
+            url: "https://chrisalee.github.io/react_cocktailDB/",
+            category: "View website"
+        },
+        {
+            _id: '24',
+            name: 'Trivia',
+            images: ['/images/Trivia-1.png', '/images/Trivia-2.png', '/images/Trivia-3.png'],
+            subtitle: 'A React.JS project deployed to github pages',
+            description: "A website made with React.JS that uses an api from opentdb.com.",
+            description2: "This responsive website includes pages to a homepage that has a dropdon menu for different subjects to be quizzed on.  The user can also select a difficulty level and once finished with the trivia questions, a modal will pop up displaying the results.",
+            url: "https://chrisalee.github.io/trivia/",
+            category: "View website"
+        },
     ],
 }
 

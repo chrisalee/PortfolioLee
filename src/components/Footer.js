@@ -1,8 +1,14 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
     <div className="footer">
+      <div className="footer-logo">
+        <Link to='/PortfolioLee/'>
+          <img src={"https://chrisalee.github.io/PortfolioLee/assets/c.png"} alt="" className="logo__image" loading='lazy' />
+        </Link>
+      </div>
       <a href="mailto:chrisalee222@gmail.com" className="footer__link">
         chrisalee222@gmail.com
       </a>

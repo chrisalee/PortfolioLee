@@ -14,7 +14,7 @@ const Nav = () => {
     <div className="header">
       <div className="logo">
         <Link to='/PortfolioLee/'>
-          <img src={"https://chrisalee.github.io/PortfolioLee/assets/logo.png"} alt="" className="logo__image" loading='lazy' />
+          <img src={"https://chrisalee.github.io/PortfolioLee/assets/c.png"} alt="" className="logo__image" loading='lazy' />
         </Link>
       </div>
       <div className="resume">

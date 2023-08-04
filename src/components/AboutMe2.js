@@ -1,5 +1,4 @@
 import React from "react";
-import Typed from "react-typed";
 
 const AboutMe2 = () => {
   return (
@@ -7,13 +6,7 @@ const AboutMe2 = () => {
       <section className="myEducation" id="myEducation" name="myEducation">
         <h2 className="section__title section__title--about">My Education</h2>
         <p className="section__subtitle section__subtitle--about">
-          <Typed
-            className="typed-text"
-            strings={["Full-Stack Developer located in Chicago, IL."]}
-            typeSpeed={60}
-            backSpeed={60}
-            loop
-          />
+            Full-Stack Developer located in Chicago, IL.
         </p>
         <div className="myEducation__body">
           <p>

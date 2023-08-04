@@ -30,12 +30,6 @@ const Project = (props) => {
 
       <div className="portfolio-item-individual">
         <ImageSlider />
-        {/* <img
-          src={`https://chrisalee.github.io/PortfolioLee${project.images[1]}?raw=true`}
-          alt={project.name}
-          className="portfolio-image-individual__main"
-          loading='lazy'
-        /> */}
         <a href={project.url} target="_blank" rel="noreferrer">
           {project.category}
         </a>

@@ -240,6 +240,16 @@ const data = {
             url: "https://chrisalee.github.io/trivia/",
             category: "View website"
         },
+        {
+            _id: '25',
+            name: 'Putting Odds',
+            images: ['/images/putting.png', '/images/putting-2.png', '/images/putting-3.png', '/images/putting-4.png'],
+            subtitle: 'A React.JS project deployed to github pages',
+            description: "An app made with React.JS using my own JSON data",
+            description2: "This app was made because I enjoy playing golf, and in the winter I use a simulator.  Sometimes the putting is hard to get accurate reads, so I looked up the percentage chance of pros making a one putt, two putt, or three putt from a certain distance.  I created a wheel with those odds, and randomized the location of each.  Spin the wheel to find how many putts it takes you to make it in the hole.  Users can adjust the colors for each (1, 2, 3) to what they think would be most useful, and the spin is randomized clockwise or counterclockwise.",
+            url: "https://chrisalee.github.io/react_puttCalc/",
+            category: "View website"
+        },
     ],
 }
 

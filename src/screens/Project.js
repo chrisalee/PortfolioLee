@@ -9,7 +9,7 @@ const Project = (props) => {
   const project = data.projects.find((x) => x._id === id);
 
   useEffect(() => {
-    window.scrollTo(0, 0)
+    window.scrollTo({top: 0, left: 0, behavior: 'instant'})
   }, []);
 
   return (

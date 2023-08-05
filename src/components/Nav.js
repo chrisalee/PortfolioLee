@@ -64,7 +64,7 @@ const Nav = () => {
               </HashLink>
             </li>
             <li className="nav__item" onClick={handleClickClose}>
-              <HashLink to="/PortfolioLee#contact" name="contact" className="nav__link">
+              <HashLink to="/PortfolioLee#contact" className="nav__link">
                 Contact
               </HashLink>
             </li>

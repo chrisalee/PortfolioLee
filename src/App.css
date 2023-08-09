@@ -81,7 +81,6 @@ section {
 }
 
 img {
-  /* display: block; */
   max-width: 100%;
 }
 
@@ -95,12 +94,11 @@ strong {
   }
 }
 
-:focus {
-  outline: 3px solid var(--clr-accent);
-  outline-offset: 3px;
-}
-
-/* Buttons **************************************************************/
+/* 
+*************************************************************
+Buttons *****************************************************
+*************************************************************
+*/
 .btn {
   display: inline-block;
   padding: 0.5em 2.5em;
@@ -114,10 +112,7 @@ strong {
   font-weight: var(--fw-bold);
   transition: transform 200ms ease-in-out;
   z-index: 10;
-}
-
-.btn:hover {
-  transform: scale(1.1);
+  font-family: inherit;
 }
 
 /* typography */
@@ -127,15 +122,12 @@ h3 {
   line-height: 1;
   margin: 0;
 }
-
 h1 {
   font-size: var(--fs-h1);
 }
-
 h2 {
   font-size: var(--fs-h2);
 }
-
 h3 {
   font-size: var(--fs-h3);
 }
@@ -194,6 +186,7 @@ h3 {
 
 .resume {
   margin-right: calc(5em - 25px);
+  
 }
 
 .resume-link {
@@ -204,12 +197,13 @@ h3 {
   padding: 0.5em 1.5em;
   border-radius: 0.1em;
   font-weight: var(--fw-bold);
+  font-family: inherit;
+  text-transform: uppercase;
 }
-/* @media (min-width) */
-
 .resume-link:hover {
-  transform: scale(1.1);
+  border-bottom: 1px solid var(--clr-dark);
 }
+
 .nav {
   position: fixed;
   background: var(--clr-dark);
@@ -298,11 +292,11 @@ h3 {
   bottom: 8px;
 }
 
-/*  */
-/*  */
-/* Intro Section ********************************************* */
-/*  */
-/*  */
+/* 
+**************************************************
+Intro Section ************************************
+**************************************************
+*/
 .intro {
   position: relative;
 }
@@ -643,19 +637,38 @@ ul {
   /* font-size: var(--fs-h2); */
 
 }
-.social--list__items {
+.social--list__item {
   margin: 0 0.5em;
+  font-size: 32px;
 }
-.social--list__link {
-  padding: 0.5em;
-}
+
 .resume-footer {
   color: var(--clr-light);
   margin-top: 1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-.resume-footer:hover {
+.footer-btn {
+  margin: 0 1em;
   color: var(--clr-dark);
-  opacity: 0.7;
+}
+
+@media (max-width: 450px) {
+  .footer__link {
+    margin-bottom: 2em;
+  }
+  .resume-footer {
+    flex-direction: column;
+  }
+  .footer-btn {
+    font-size: 15px;
+    margin-bottom: 2em;
+  }
+  .social--list {
+    margin-top: 0;
+  }
 }
 
 /* 

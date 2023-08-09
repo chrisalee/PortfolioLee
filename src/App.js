@@ -7,12 +7,6 @@ import Footer from "./components/Footer";
 import ScrollTop from "./components/ScrollTop";
 import Project from "./screens/Project";
 
-// const Nav = lazy(() => import('./components/Nav'));
-// const Project = lazy(() => import('./screens/Project'));
-// const Home = lazy(() => import('./screens/Home'));
-// const ScrollTop = lazy(() => import('./components/ScrollTop'));
-// const Footer = lazy(() => import('./components/Footer'));
-
 const App = () => {
   return (
     <BrowserRouter basename={"/"}>

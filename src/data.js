@@ -153,7 +153,7 @@ const data = {
         {
             _id: '16',
             name: 'Jeopardy',
-            images: ['/images/jeopardy.png', '/images/jeopardy2.png', '/images/jeopard3.png'],
+            images: ['/images/jeopardy.png', '/images/jeopardy2.png', '/images/jeopardy3.png'],
             subtitle: 'A vanilla JS project deployed to github pages',
             description: "A basic prototype of a Jeopardy clone.  The app pulls questions from jService, an open API of Jeopardy questions.",
             description2: "ThisJeopardy style trivia game was built with HTML, CSS, and JS.",
